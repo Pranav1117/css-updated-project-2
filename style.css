@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+header{
+    margin-left: 10%;
+    
+    font: normal normal bold 40px/49px Inter;
+    text-align: left;
+}
+
+.h1{
+    color: #424242;
+}
+
+.h2{
+    color: #00A5EC;
+
+}
+
+.up{
+    background-color: white;
+}
+.bggray{
+    position: relative;
+    top: 1px;
+    padding: 10px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    height: 100%;
+}
+
+.addbuttonicon{
+
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+    align-items: center;
+}
+.add-icon{
+    width: 35px;
+    rotate: 45deg;
+}
+a{
+    text-decoration: none;
+}
+.addb{
+    font: normal normal normal 22px/26px Inter;
+    letter-spacing: 0px;
+    color: #424242;
+    text-decoration: none;
+    margin-right: 13%;
+    position: relative;
+    
+}
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 3%;
+    margin-left: 10%;
+    text-align: start;
+    
+}
+
+.box{
+    padding: 2%;
+    width: 25%;
+    line-height: 170%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    height: 19em;
+    border: 0.5px solid #808080;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.title{
+    padding: 3%;
+    text-align: left;
+    font: normal normal medium  Inter;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    color: #00A5EC;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3em;
+    padding: 3%;
+line-height: 150%;
+}
+
+.first-item{
+    text-decoration: line-through;
+color:#808080;
+}
+
+.sec-item{
+    color: black;
+}
+
+.gray-line{
+    color: gray;
+}
+
+.blur{
+    color: black;
+    filter: blur(5px);
+}
+.newtaskpop{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30%;
+    padding: 2%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    background-color: white;
+}
+
+.newtaskpop{
+    margin-inline: auto;
+    z-index: 2;
+}
+
+.close{
+    text-align: right;
+    font-size: 1.5em;
+    rotate: 45deg;
+}
+.popup-header-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.popup-header{
+text-align: left;
+font: normal normal medium  Inter;
+font-size: 1.3em;
+letter-spacing: 0px;
+color: #404040;
+opacity: 1;
+}
+
+.input{
+    width: 95%;
+    height: 2em;
+    margin-top: 5%;
+    padding: 5px;
+    background-color: #F7F7F7;
+    border: 1px solid gray;
+}
+
+
+
+.bluebutton{
+    background-color: #00A5EC ;
+    width: 25%;
+    padding:2% ;
+    border-radius: 5px;
+    margin-top: 4%;
+    position: relative;
+    left: 65%;
+    color: white;
+}
+
+.page3-container{
+    margin: 0px;
+}
+.page3-box{
+  margin-inline: auto;
+  line-height: 160%;
+}
+.page3-gray{
+    height: 100vh;
+}
+
+.addbuttton-page3{
+    width: 33%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.back-icon{
+    width: 78px;
+    height: 35px;
+    rotate: 180deg;
+
+}
+.backbuttonicon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.backb-page3{
+    font: normal normal normal 22px/26px Inter;
+    letter-spacing: 0px;
+    color: #424242;
+    text-decoration: none;
+    margin-right: 13%;
+    position: relative;
+}
+
+.addbuttonicon-page3{
+    margin: 0px;
+}
+
+.page4-box{
+    margin-inline: auto;
+
+}
+
+.newitem{
+    
+}
+
+@media only screen and (min-width:250px) and (max-width:750px){
+
+    #header{
+        margin: 0px;
+        font-size: 1.5em;
+    }
+
+    .addb{
+        display: none;
+        
+    }
+
+    .addbuttonicon{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .boc-container{
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+        margin-left: 10%;
+        text-align: start;
+    }
+
+    .box{
+        width: 90%;
+    }
+
+    .newtaskpop{
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 70%;
+        padding: 5%;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        background-color: white;
+    }
+
+    .bluebutton{
+        background-color: #00A5EC;
+        width: 35%;
+        padding: 2%;
+        border-radius: 5px;
+        margin-top: 4%;
+        position: relative;
+        left: 60%;
+        color: white;
+    }
+
+    .input{
+        width: 95%;
+        height: 1em;
+        margin-top: 5%;
+        padding: 5px;
+        background-color: #F7F7F7;
+        border: 1px solid gray;
+    }
+
+    .backbuttonicon{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        position: relative;
+        right: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
