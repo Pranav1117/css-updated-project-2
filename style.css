@@ -221,9 +221,7 @@ opacity: 1;
 
 }
 
-.newitem{
-    
-}
+
 
 @media only screen and (min-width:250px) and (max-width:750px){
 
@@ -261,8 +259,8 @@ opacity: 1;
         border-radius: 10px;
         width: 70%;
         padding: 5%;
-        position: absolute;
-        top: 30%;
+        position: fixed;
+        top: 20%;
         left: 10%;
         background-color: white;
     }
